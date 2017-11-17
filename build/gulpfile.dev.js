@@ -40,7 +40,10 @@ function dev() {
      * less样式处理 
      */
     gulp.task('less:dev', function () {
-        return gulp.src(Config.less.src).pipe(less()).pipe(gulp.dest(Config.less.dist)).pipe(reload({
+        return gulp.src(Config.less.src).pipe(less()).pipe(autoprefixer({
+            browsers: ['last 2 versions', 'Android >= 4.0'],
+            cascade: true, //是否美化属性值 默认：true 像这样：
+        })).pipe(gulp.dest(Config.less.dist)).pipe(reload({
             stream: true
         }));
     });
