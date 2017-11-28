@@ -14,12 +14,12 @@
 ++src                   //  gulp打包前的木  
 ```
 ## 有什么功能
-[x] 开发服务器页面自动刷新同步
-[x] css 自动autoprefixer
-[x] js css 合并
-[x] js 代码规范检查
-[x] less 编译
-[x] 代码混淆
+- [x] 开发服务器页面自动刷新同步
+- [x] css 自动autoprefixer
+- [x] js css 合并
+- [x] js 代码规范检查
+- [x] less 编译
+- [x] 代码混淆
 
 
 
